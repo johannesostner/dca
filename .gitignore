@@ -6,3 +6,4 @@ build
 .Rproj.user
 docs/build
 data/simulation/
+.idea/
