@@ -27,7 +27,7 @@ from .hyper import hyper
 import numpy as np
 import tensorflow as tf
 import keras.optimizers as opt
-from keras.callbacks import TensorBoard, ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
+from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
 from keras import backend as K
 from keras.preprocessing.image import Iterator
 
